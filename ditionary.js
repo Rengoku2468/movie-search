@@ -5,7 +5,7 @@ function getword() {
         alert('Please enter a word');
         return;
     }
-    const apiKey = "9d3645ae-1e6d-4b31-9534-2432abce019a";
+    const apiKey = "your key";
     const apiUrl = `https://dictionaryapi.com/api/v3/references/sd3/json/${search}?key=${apiKey}`;
 
     fetch(apiUrl)
